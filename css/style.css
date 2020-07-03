@@ -20,13 +20,19 @@ button {
   outline: none;
 }
 
+.containte {
+  width: 100%;
+}
+
 .navbar-container {
   background-color: #383838;
   color: #888;
   font-size: 12px;
+  width: 100%;
 }
 
 .top-nav {
+  width: 100%;
   margin-left: 10%;
   display: flex;
 }
@@ -53,4 +59,22 @@ button {
 
 .fa {
   font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .top-nav img {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1246px) {
+  .top-nav img {
+    margin: 0 160px;
+  }
 }
