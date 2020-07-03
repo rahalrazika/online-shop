@@ -61,13 +61,42 @@ button {
   font-size: 15px;
 }
 
+.cover {
+  height: 10vh;
+}
+
+.banner-container {
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+}
+
+.banner-logo img {
+  width: 20%;
+}
+
+.banner-logo p {
+  margin-top: -32px !important;
+  font-size: 29px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border: solid;
+  border-style: none;
+  margin: -1px;
+  height: 44px;
+}
+
+.big-btn {
+  width: 32%;
+}
 @media screen and (max-width: 600px) {
   .top-nav img {
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 990px) {
   .top-nav img {
     margin: 0 100px;
   }
