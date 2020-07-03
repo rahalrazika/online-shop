@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-container {
+  background-color: #383838;
+  color: #888888;
+  font-size: 12px;
+}
+
+.top-nav {
+  margin-left: 10%;
+  display: flex;
+}
+
+.top-nav a {
+  height: 12px;
+  margin: 15px;
+}
+
+.top-nav img {
+  width: 51px;
+  margin: 10px 80px;
+}
+
+.top-nav i {
+  padding: 0 15px;
+}
