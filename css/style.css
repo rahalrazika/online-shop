@@ -22,7 +22,7 @@ button {
 
 .navbar-container {
   background-color: #383838;
-  color: #888888;
+  color: #888;
   font-size: 12px;
 }
 
@@ -43,4 +43,14 @@ button {
 
 .top-nav i {
   padding: 0 15px;
+}
+
+.user-nav img {
+  width: 28px;
+  margin-left: 20rem;
+  border-radius: 60%;
+}
+
+.fa {
+  font-size: 15px;
 }
