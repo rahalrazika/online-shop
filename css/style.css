@@ -5,6 +5,12 @@
   font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+:root {
+  --red-color: #d35266;
+  --black-color: #383838;
+  --gray-color: #888;
+}
+
 li {
   list-style: none;
 }
@@ -25,8 +31,8 @@ button {
 }
 
 .navbar-container {
-  background-color: #383838;
-  color: #888;
+  background-color: var(--black-color);
+  color: var(--gray-color);
   font-size: 12px;
   width: 100%;
 }
@@ -66,10 +72,6 @@ button {
   background-size: cover;
 }
 
-.banner-logo img {
-  width: 20%;
-}
-
 .banner-logo p {
   margin-top: -32px !important;
   font-size: 29px;
@@ -92,31 +94,40 @@ button {
 }
 
 .up-img img {
-  width: 50%;
-  height: 50%;
+  margin-left: 8rem !important;
 }
 
 .arrow-img {
   margin-top: 12rem !important;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .top-nav img {
-    margin: 0 auto;
-  }
-
-  .banner-container {
-    display: none;
+    margin: 0 62px;
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 1200px) {
   .top-nav img {
     margin: 0 100px;
   }
+}
 
-  .banner-container {
-    display: none;
+@media screen and (min-width: 1400px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .nav-logo {
+    margin-left: 135px;
+  }
+
+  .user-img {
+    margin-left: 35rem !important;
+  }
+
+  .top-nav img {
+    margin: 0 2px;
   }
 }

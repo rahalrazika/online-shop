@@ -2758,7 +2758,7 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #d35266;
   border-color: #dc3545;
 }
 
@@ -10130,7 +10130,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #f72210 !important;
+  color: #d35266 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
