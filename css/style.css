@@ -61,10 +61,6 @@ button {
   font-size: 15px;
 }
 
-.cover {
-  height: 10vh;
-}
-
 .banner-container {
   background-image: url("../img/cover.jpg");
   background-size: cover;
@@ -90,9 +86,28 @@ button {
 .big-btn {
   width: 32%;
 }
+
+.up-title {
+  margin-left: 8rem !important;
+}
+
+.up-img img {
+  width: 50%;
+  height: 50%;
+}
+
+.arrow-img {
+  margin-top: 12rem !important;
+  border-radius: 20%;
+}
+
 @media screen and (max-width: 600px) {
   .top-nav img {
     margin: 0 auto;
+  }
+
+  .banner-container {
+    display: none;
   }
 }
 
@@ -100,10 +115,8 @@ button {
   .top-nav img {
     margin: 0 100px;
   }
-}
 
-@media screen and (max-width: 1246px) {
-  .top-nav img {
-    margin: 0 160px;
+  .banner-container {
+    display: none;
   }
 }
