@@ -26,6 +26,10 @@ button {
   outline: none;
 }
 
+.fit-content {
+  width: fit-content;
+}
+
 .containte {
   width: 100%;
 }
@@ -85,6 +89,36 @@ button {
   height: 44px;
 }
 
+.item-img {
+  background-image: url("../img/fig-1.jpg");
+  width: 100%;
+}
+
+.card-items {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.size-img-top {
+  width: 15.4rem !important;
+  height: 15rem !important;
+}
+
+.br-bottom {
+  margin-top: -1rem !important;
+}
+
+.btn-price {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  margin-left: 4rem !important;
+}
+
+.btn-plus {
+  height: fit-content !important;
+}
+
 .big-btn {
   width: 32%;
 }
@@ -105,6 +139,11 @@ button {
 @media screen and (min-width: 600px) {
   .top-nav img {
     margin: 0 62px;
+  }
+
+  .size-img-top {
+    width: 15.4rem !important;
+    height: 15rem !important;
   }
 }
 
