@@ -34,6 +34,11 @@ button {
   width: 100%;
 }
 
+.collection {
+  background-color: #f6f6f6 !important;
+  border-top: solid 1px var(--gray-color);
+}
+
 .navbar-container {
   background-color: var(--black-color);
   color: var(--gray-color);
