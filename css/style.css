@@ -45,6 +45,10 @@ button {
   border-bottom: solid 1px var(--gray-color);
 }
 
+.containte {
+  width: 100%;
+}
+
 .navbar-container {
   background-color: var(--black-color);
   color: var(--gray-color);
@@ -173,6 +177,10 @@ button {
   padding: 4px 14px;
   background-color: white;
   color: var(--red-color);
+}
+
+.res-article {
+  min-height: 200px;
 }
 
 @media screen and (min-width: 600px) {
