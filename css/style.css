@@ -164,6 +164,19 @@ button {
   border-radius: 50%;
 }
 
+.footer-links {
+  margin-top: 5rem !important;
+}
+
+.social-icon .fa {
+  font-size: 37px;
+  border: solid none;
+  border-radius: 60%;
+  padding: 4px 14px;
+  background-color: white;
+  color: var(--red-color);
+}
+
 @media screen and (min-width: 600px) {
   .top-nav img {
     margin: 0 62px;
@@ -196,5 +209,9 @@ button {
 
   .top-nav img {
     margin: 0 2px;
+  }
+
+  .footer {
+    margin-left: 27rem !important;
   }
 }
