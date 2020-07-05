@@ -119,8 +119,12 @@ button {
 .card-items {
   width: 86%;
   margin: 0 auto;
+  min-height: 200px;
 }
 
+.card-items h5 {
+  font-size: 0.9rem !important;
+}
 .size-img-top {
   width: 15.4rem !important;
   height: 15rem !important;
