@@ -21,6 +21,11 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--red-color);
+  text-decoration: none;
+}
+
 button {
   cursor: pointer;
   outline: none;
@@ -37,6 +42,7 @@ button {
 .collection {
   background-color: #f6f6f6 !important;
   border-top: solid 1px var(--gray-color);
+  border-bottom: solid 1px var(--gray-color);
 }
 
 .navbar-container {
@@ -68,7 +74,7 @@ button {
 
 .user-nav img {
   width: 28px;
-  margin-left: 20rem;
+  margin-left: 20rem !important;
   border-radius: 60%;
 }
 
@@ -92,6 +98,17 @@ button {
   border-style: none;
   margin: -1px;
   height: 44px;
+}
+
+.btn-search {
+  background-color: var(--black-color);
+  border: none;
+  color: white;
+  margin-left: 9px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .item-img {
@@ -126,6 +143,7 @@ button {
 
 .big-btn {
   width: 32%;
+  text-align: left;
 }
 
 .up-title {
