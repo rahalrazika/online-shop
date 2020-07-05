@@ -11,6 +11,10 @@
   --gray-color: #888;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 li {
   list-style: none;
 }
