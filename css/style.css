@@ -5,14 +5,14 @@
   font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --red-color: #d35266;
   --black-color: #383838;
   --gray-color: #888;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 li {
@@ -39,10 +39,6 @@ button {
   width: fit-content;
 }
 
-.containte {
-  width: 100%;
-}
-
 .collection {
   background-color: #f6f6f6 !important;
   border-top: solid 1px var(--gray-color);
@@ -53,11 +49,9 @@ button {
   background-color: var(--black-color);
   color: var(--gray-color);
   font-size: 12px;
-  width: 100%;
 }
 
 .top-nav {
-  width: 100%;
   margin-left: 10%;
   display: flex;
 }
@@ -199,10 +193,6 @@ button {
 }
 
 @media screen and (min-width: 1400px) {
-  .navbar-container {
-    width: 100%;
-  }
-
   .nav-logo {
     margin-left: 135px;
   }
