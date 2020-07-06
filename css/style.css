@@ -165,8 +165,13 @@ button {
   color: var(--red-color);
 }
 
+.main-section {
+  font-size: 12px;
+}
+
 .res-article {
-  min-height: 200px;
+  max-width: 100%;
+  max-height: 700px;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
