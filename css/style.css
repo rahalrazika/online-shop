@@ -55,29 +55,18 @@ button {
   font-size: 12px;
 }
 
-.top-nav {
-  margin-left: 10%;
-  display: flex;
+.navbar-container img {
+  width: 75px;
+  margin: -19px 0;
+  margin-left: 8rem !important;
 }
 
-.top-nav a {
-  height: 12px;
-  margin: 15px;
+.navbar-container i {
+  padding: 0 15px !important;
 }
 
-.top-nav img {
-  width: 51px;
-  margin: 10px 80px;
-}
-
-.top-nav i {
-  padding: 0 15px;
-}
-
-.user-nav img {
-  width: 28px;
-  margin-left: 20rem !important;
-  border-radius: 60%;
+.navbar-container a {
+  font-size: 15px;
 }
 
 .fa {
@@ -183,37 +172,38 @@ button {
   min-height: 200px;
 }
 
-@media screen and (min-width: 600px) {
-  .top-nav img {
-    margin: 0 62px;
-  }
+.user-nav {
+  margin-right: 7rem !important;
+}
 
-  .size-img-top {
-    width: 15.4rem !important;
-    height: 15rem !important;
+@media screen and (min-width: 600px) {
+  .navbar-container img {
+    width: 75px;
+    margin: -40px -3px;
+    margin-left: 2rem !important;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .top-nav img {
-    margin: 0 100px;
+  .arrow-img {
+    margin-top: 5rem !important;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .nav-logo {
-    margin-left: 135px;
-  }
-
-  .user-img {
-    margin-left: 35rem !important;
-  }
-
-  .top-nav img {
-    margin: 0 2px;
-  }
-
   .footer {
     margin-left: 27rem !important;
+  }
+
+  .btn-price {
+    margin-left: 28rem !important;
+  }
+
+  .sub-btn {
+    margin-right: 8rem !important;
+  }
+
+  .arrow-img {
+    margin-top: 5rem !important;
   }
 }

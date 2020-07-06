@@ -13,45 +13,43 @@
   </head>
   <body>
     <header>
-      <nav class="navbar-container">
-        <div class="top-nav ml-2">
-          <div class="nav-logo">
-            <img class="" src="img/logo.png" alt="logo" />
-          </div>
+      <nav class="navbar navbar-container navbar-expand-lg navbar-expand-md navbar-expand-sm">
+        <a class="navbar-brand mt-3" href="#"
+          ><img src="img/logo.png" alt="kawaii logo"
+        /></a>
 
-          <div class="nav-centre mt-4">
-            <ul>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-home"></i>
-                  HOME
-                </a>
-                <a href="#">
-                  <i class="fa fa-th-large"></i>
-                  collection</a
-                >
-                <a href="#">
-                  <i class="fa fa-shopping-cart"></i>
-                  purchase list</a
-                >
-              </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class = "nav-link text-secondary mt-3" href="#"
+                    ><i class="fa fa-home"></i>
+                    HOME
+                  </a>
+            </li>
+            <li class="nav-item">
+              <a class= "nav-link text-secondary mt-3" href="#">
+                <i class="fa fa-th-large"></i>
+                COLLECTIONS</a
+              >
+            </li>
+              <a class= "nav-link text-secondary" href="#">
+                <i class="fa fa-shopping-cart mt-3"></i>
+                PURCHASE LIST</a
+              >
+            </li>
+            <li>
+              <button
+                class="btn-danger nav-btn ml-5 p-2 mt-3 d-none d-lg-block   "
+              >
+                 POST AN AD
+              </button>
+            </li>
+          </ul>
+          <div class=" align-items-center navbar-text user-nav d-none d-lg-block   ">
+            <a href="#"><i class="fa fa-envelope-o"></i></a>
+           <span class="text-white"> RAZA</span> 
+           <a href="#"><i class="fa fa-user-circle-o text-danger user-icon"></i></a>
           </div>
-          <div>
-            <button
-              class="btn-danger nav-btn ml-3 p-2 mt-3 mb-lg-2 d-none d-lg-block"
-            >
-              POST AN AD
-            </button>
-          </div>
-          <div class="d-flex justify-content-end align-items-center user-nav">
-            <img
-              class="d-none d-lg-block user-img"
-              src="img/person.png"
-              alt="user"
-            />
-          </div>
-        </div>
       </nav>
     </header>
 
@@ -372,8 +370,8 @@
           <a href="#"> <i class="fa fa-youtube"></i></a>
         </div>
         <div class="newsletter mr-5 mr-sm-2 mr-lg-5">
-          <input type="email" class="p-2 mr-sm-2 mr-lg-2" />
-          <span class="btn-search mr-lg-2">
+          <input type="email" class="p-2 p-sm-1 mr-sm-2 mr-lg-2 border" />
+          <span class="btn-search sub-btn">
             <a href="#">subscribe</a>
           </span>
         </div>
