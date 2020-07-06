@@ -170,6 +170,17 @@ button {
   max-height: 700px;
 }
 
+.show-more {
+  margin-left: 7rem !important;
+}
+
+.show-more span {
+  border: 1px solid #999;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: var(--red-color);
+}
+
 @media (min-width: 991px) and (max-width: 1200px) {
   .sub-btn {
     margin-right: 8rem !important;
@@ -213,5 +224,9 @@ button {
 
   .sub-btn {
     margin-left: 2rem;
+  }
+
+  .show-more span {
+    display: none;
   }
 }
