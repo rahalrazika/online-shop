@@ -50,7 +50,10 @@
               >
             </li>
             <li class="ml-3">
-              <button class="btn-danger nav-btn ml-3 p-2 d-none d-lg-block">
+              <button
+                type="submit"
+                class="btn-danger nav-btn ml-3 p-2 d-none d-lg-block"
+              >
                 POST AN AD
               </button>
             </li>
@@ -68,7 +71,7 @@
 
     <main>
       <!-- the banner -->
-      <div class="banner-container d-none d-lg-block ">
+      <div class="banner-container d-none d-lg-block">
         <div class="banner-logo">
           <img class="mt-4 ml-2" src="img/big-logo.png" alt="logo" />
           <p class="text-white ml-2">
@@ -82,10 +85,16 @@
           >
             all categories
           </button>
-          <button class="btn btn-secondary bg-white text-secondary big-btn">
+          <button
+            type="button"
+            class="btn btn-secondary bg-white text-secondary big-btn"
+          >
             New
           </button>
-          <button class="btn btn-secondary bg-white text-secondary big-btn">
+          <button
+            type="button"
+            class="btn btn-secondary bg-white text-secondary big-btn"
+          >
             cosplay
           </button>
           <span class="btn-search">
@@ -183,91 +192,99 @@
             </div>
           </div>
 
-          <div class="col ">
+          <div class="col">
             <div class="section-header">
-                <p class="text-secondary search-result mt-2 border-bottom"><b> 27</b> results found for <b>"cosplay"</b> 
-           
-            </div>
-           <div class="search-res border-left">
-           <div class="row">
-           <!--first article -->
-           <article class="row mt-2 border-bottom pt-4 res-article">
-            <div class="res-img col-4">
-              <img class="w-75 h-75 ml-4" src="img/res-1.png" alt="res" />
-            </div>
-            <div class="up-text col-6 mb-sm-5">
-              <h6 class="text-danger">
-                Naruto Uchiha Sasuke Cosplay Costume - 4th Edition
-              </h6>
-              <p>
-                Package includes Coat,Pants,Belt,Apron,Oversleeve
+              <p class="text-secondary search-result mt-2 border-bottom">
+                <b> 27</b> results found for <b>"cosplay"</b>
               </p>
-              <button class="btn btn-danger">$75</button>
-              <button class="btn btn-danger ">
-                <i class="fa fa-cart-plus"></i> detail
-              </button>
             </div>
-          </article>
-             <!--second article-->
-             <article class="row mt-5 border-top border-bottom pt-4 res-article">
-              <div class="res-img col-4">
-                <img class="w-75 h-75 ml-4" src="img/res-2.png" alt="res" />
-              </div>
-              <div class="up-text col-6 mb-sm-5">
-                <h6 class="text-danger ">
-                  Naruto Inner Sakura Cosplay Costume
-                </h6>
-                <p>
-                  Package includes Dress,Shorts
-                </p>
-                <button class="btn btn-danger">$40</button>
-                <button class="btn btn-danger ">
-                  <i class="fa fa-cart-plus"></i> detail
-                </button>
-              </div>
-            </article>
-            <!--third article-->
-            <article class="row mt-5 border-top border-bottom pt-4 res-article">
-              <div class="res-img col-4">
-                <img class="w-75 h-75 ml-4" src="img/res-3.png" alt="res" />
-              </div>
-              <div class="up-text col-6 mb-sm-5">
-                <h6 class="text-danger ">
-                  Naruto Uchiha Itachi Cloak
-                </h6>
-                <p>
-                  This Naruto Cloak: Akatsuki Organization Uchiha Itachi Cosplay
-                  package includes: Cloak
-                </p>
-                <button class="btn btn-danger">$80</button>
-                <button class="btn btn-danger ">
-                  <i class="fa fa-cart-plus"></i> detail
-                </button>
-              </div>
-            </article>
-            <!--fourth article-->
-            <article class="row mt-5 border-top  pt-4 res-article">
-              <div class="res-img col-4">
-                <img class="w-75 h-75 ml-4" src="img/res-4.png" alt="res" />
-              </div>
-              <div class="up-text col-6 mb-sm-5">
-                <h6 class="text-danger">
-                  One Piece Roronoa Zoro Cosplay Costume
-                </h6>
-                <p>
-                  This One Piece Roronoa Zoro Cosplay Costume package includes:
-                  Top, Pants, Belt and Arm Band.
-                </p>
-                <button class="btn btn-danger">$80</button>
-                <button class="btn btn-danger ">
-                  <i class="fa fa-cart-plus"></i> detail
-                </button>
-              </div>
-            </article>
 
-          </div>
-          <hr>
-          <div class="d-flex show-more d-none d-lg-block  justify-content-center">
+            <div class="search-res border-left">
+              <div class="row">
+                <!--first article -->
+                <article class="row mt-2 border-bottom pt-4 res-article">
+                  <div class="res-img col-4">
+                    <img class="w-75 h-75 ml-4" src="img/res-1.png" alt="res" />
+                  </div>
+                  <div class="up-text col-6 mb-sm-5">
+                    <h6 class="text-danger">
+                      Naruto Uchiha Sasuke Cosplay Costume - 4th Edition
+                    </h6>
+                    <p>
+                      Package includes Coat,Pants,Belt,Apron,Oversleeve
+                    </p>
+                    <button type="button" class="btn btn-danger">$75</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa fa-cart-plus"></i> detail
+                    </button>
+                  </div>
+                </article>
+                <!--second article-->
+                <article
+                  class="row mt-5 border-top border-bottom pt-4 res-article"
+                >
+                  <div class="res-img col-4">
+                    <img class="w-75 h-75 ml-4" src="img/res-2.png" alt="res" />
+                  </div>
+                  <div class="up-text col-6 mb-sm-5">
+                    <h6 class="text-danger">
+                      Naruto Inner Sakura Cosplay Costume
+                    </h6>
+                    <p>
+                      Package includes Dress,Shorts
+                    </p>
+                    <button type="button" class="btn btn-danger">$40</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa fa-cart-plus"></i> detail
+                    </button>
+                  </div>
+                </article>
+                <!--third article-->
+                <article
+                  class="row mt-5 border-top border-bottom pt-4 res-article"
+                >
+                  <div class="res-img col-4">
+                    <img class="w-75 h-75 ml-4" src="img/res-3.png" alt="res" />
+                  </div>
+                  <div class="up-text col-6 mb-sm-5">
+                    <h6 class="text-danger">
+                      Naruto Uchiha Itachi Cloak
+                    </h6>
+                    <p>
+                      This Naruto Cloak: Akatsuki Organization Uchiha Itachi
+                      Cosplay package includes: Cloak
+                    </p>
+                    <button type="button" class="btn btn-danger">$80</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa fa-cart-plus"></i> detail
+                    </button>
+                  </div>
+                </article>
+                <!--fourth article-->
+                <article class="row mt-5 border-top pt-4 res-article">
+                  <div class="res-img col-4">
+                    <img class="w-75 h-75 ml-4" src="img/res-4.png" alt="res" />
+                  </div>
+                  <div class="up-text col-6 mb-sm-5">
+                    <h6 class="text-danger">
+                      One Piece Roronoa Zoro Cosplay Costume
+                    </h6>
+                    <p>
+                      This One Piece Roronoa Zoro Cosplay Costume package
+                      includes: Top, Pants, Belt and Arm Band.
+                    </p>
+                    <button type="button" class="btn btn-danger">$80</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa fa-cart-plus"></i> detail
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <hr />
+            <div
+              class="d-flex show-more d-none d-lg-block justify-content-center"
+            >
               <span><a class="text-dark" href="#">1</a></span>
               <span><a class="text-dark" href="#">2</a> </span>
               <span><a class="text-dark" href="#">3</a> </span>
@@ -277,7 +294,7 @@
               <span><a class="text-dark" href="#">7</a> </span>
               <span><a class="text-dark" href="#">8</a> </span>
               <span><a class="text-dark" href="#">>></a> </span>
-              
+            </div>
           </div>
         </div>
       </section>
