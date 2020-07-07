@@ -7,7 +7,7 @@
 
 body {
   overflow-x: hidden;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 :root {
@@ -56,10 +56,14 @@ button {
   font-size: 12px;
 }
 
+.navbar-brand {
+  margin-top: -1rem !important;
+}
+
 .navbar-container img {
   width: 75px;
-  margin: -19px 0;
-  margin-left: 4rem;
+  margin: -10px -13px -19px 0;
+  margin-left: 10rem;
 }
 
 .navbar-container a {
@@ -71,11 +75,11 @@ button {
 }
 
 .user-nav {
-  margin-left: 11rem !important;
+  margin-right: 0 !important;
 }
 
 .banner-container {
-  background-image: url("../img/cover.jpg");
+  background-image: url("../img/espiral_roja.jpg");
   background-size: cover;
 }
 
@@ -95,7 +99,7 @@ button {
   border: none;
   color: white;
   margin-left: 9px;
-  padding: 14px 25px;
+  padding: 6px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -175,10 +179,23 @@ button {
 }
 
 .show-more span {
-  border: 1px solid #999;
+  border: 1px solid var(--black-color);
   padding: 5px 10px;
   margin: 0 10px;
+  background-color: white;
+}
+
+.show-more span:hover {
   background-color: var(--red-color);
+}
+
+.detail-btn {
+  margin-left: 15rem !important;
+  margin-top: 6rem;
+}
+
+.heart {
+  color: red;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -199,12 +216,17 @@ button {
   .navbar-nav {
     margin: 0 34px;
   }
+
+  .detail-btn {
+    margin-left: 12rem !important;
+    margin-top: 6rem;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
   .navbar-container img {
     width: 75px;
-    margin: -40px -3px;
+    margin: -12px -3px;
     margin-left: 0;
   }
 
@@ -228,5 +250,10 @@ button {
 
   .show-more span {
     display: none;
+  }
+
+  .detail-btn {
+    margin-left: -2rem !important;
+    margin-top: 1rem;
   }
 }

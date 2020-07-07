@@ -14,50 +14,52 @@
   <body class="containt">
     <header>
       <nav class="navbar navbar-container navbar-expand-md">
-        <a class="navbar-brand" href="#"
-          ><img src="img/logo.png" alt="kawaii-logo"
-        /></a>
-        <button
-          class="navbar-toggler navbar-dark"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link text-secondary" href="#"
-                ><i class="fa fa-home"></i> Home<span class="sr-only"
-                  >(current)</span
-                ></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">
-                <i class="fa fa-th-large"></i>
-                collections</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">
-                <i class="fa fa-shopping-cart"></i>
-                purchase list</a
-              >
-            </li>
-            <li class="ml-3">
-              <button
-                type="submit"
-                class="btn-danger nav-btn ml-3 p-2 d-none d-lg-block"
-              >
-                POST AN AD
-              </button>
-            </li>
-          </ul>
+        <div class="d-flex flex-grow-1">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.png" alt="kawaii-logo"
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-secondary" href="index.html"
+                  ><i class="fa fa-home"></i> Home<span class="sr-only"
+                    >(current)</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">
+                  <i class="fa fa-th-large"></i>
+                  collections</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">
+                  <i class="fa fa-shopping-cart"></i>
+                  purchase list</a
+                >
+              </li>
+              <li class="ml-3">
+                <button
+                  type="button"
+                  class="btn-danger nav-btn ml-3 p-2 d-none d-lg-block"
+                >
+                  POST AN AD
+                </button>
+              </li>
+            </ul>
+          </div>
           <div class="navbar-text user-nav d-none d-lg-block">
             <a href="#"><i class="fa fa-envelope-o"></i></a>
             <span class="text-white"> RAZA</span>
@@ -72,13 +74,13 @@
     <main>
       <!-- the banner -->
       <div class="banner-container d-none d-lg-block">
-        <div class="banner-logo">
-          <img class="mt-4 ml-2" src="img/big-logo.png" alt="logo" />
-          <p class="text-white ml-2">
-            Otakus Welcome, to your house
+        <div class="banner-logo ml-5">
+          <img src="img/big-logo.png" alt="logo" />
+          <p class="text-white">
+            Discover and shop for the best anime figurines and cosplay costumes
           </p>
         </div>
-        <div class="banner-input pb-5 ml-2">
+        <div class="banner-input pb-5 text-center">
           <button
             class="btn btn-secondary bg-white text-secondary dropdown-toggle"
             type="button"
@@ -89,7 +91,7 @@
             type="button"
             class="btn btn-secondary bg-white text-secondary big-btn"
           >
-            New
+            new
           </button>
           <button
             type="button"
@@ -213,10 +215,12 @@
                     <p>
                       Package includes Coat,Pants,Belt,Apron,Oversleeve
                     </p>
-                    <button type="button" class="btn btn-danger">$75</button>
-                    <button type="button" class="btn btn-danger">
-                      <i class="fa fa-cart-plus"></i> detail
-                    </button>
+                    <div class="detail-btn">
+                      <button type="button" class="btn btn-danger">$75</button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="fa fa-cart-plus"></i> detail
+                      </button>
+                    </div>
                   </div>
                 </article>
                 <!--second article-->
@@ -233,10 +237,12 @@
                     <p>
                       Package includes Dress,Shorts
                     </p>
-                    <button type="button" class="btn btn-danger">$40</button>
-                    <button type="button" class="btn btn-danger">
-                      <i class="fa fa-cart-plus"></i> detail
-                    </button>
+                    <div class="detail-btn">
+                      <button type="button" class="btn btn-danger">$75</button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="fa fa-cart-plus"></i> detail
+                      </button>
+                    </div>
                   </div>
                 </article>
                 <!--third article-->
@@ -251,13 +257,15 @@
                       Naruto Uchiha Itachi Cloak
                     </h6>
                     <p>
-                      This Naruto Cloak: Akatsuki Organization Uchiha Itachi
+                      This Naruto Cloak: Akatsuki Organization Uchiha Itachi<br />
                       Cosplay package includes: Cloak
                     </p>
-                    <button type="button" class="btn btn-danger">$80</button>
-                    <button type="button" class="btn btn-danger">
-                      <i class="fa fa-cart-plus"></i> detail
-                    </button>
+                    <div class="detail-btn">
+                      <button type="button" class="btn btn-danger">$75</button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="fa fa-cart-plus"></i> detail
+                      </button>
+                    </div>
                   </div>
                 </article>
                 <!--fourth article-->
@@ -270,13 +278,15 @@
                       One Piece Roronoa Zoro Cosplay Costume
                     </h6>
                     <p>
-                      This One Piece Roronoa Zoro Cosplay Costume package
-                      includes: Top, Pants, Belt and Arm Band.
+                      This One Piece Roronoa Zoro Cosplay Costume <br />
+                      package includes: Top, Pants, Belt and Arm Band.
                     </p>
-                    <button type="button" class="btn btn-danger">$80</button>
-                    <button type="button" class="btn btn-danger">
-                      <i class="fa fa-cart-plus"></i> detail
-                    </button>
+                    <div class="detail-btn">
+                      <button type="button" class="btn btn-danger">$75</button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="fa fa-cart-plus"></i> detail
+                      </button>
+                    </div>
                   </div>
                 </article>
               </div>
@@ -285,15 +295,15 @@
             <div
               class="d-flex show-more d-none d-lg-block justify-content-center"
             >
-              <span><a class="text-dark" href="#">1</a></span>
-              <span><a class="text-dark" href="#">2</a> </span>
-              <span><a class="text-dark" href="#">3</a> </span>
-              <span><a class="text-dark" href="#">4</a> </span>
-              <span><a class="text-dark" href="#">5</a></span>
-              <span><a class="text-dark" href="#">6</a> </span>
-              <span><a class="text-dark" href="#">7</a> </span>
-              <span><a class="text-dark" href="#">8</a> </span>
-              <span><a class="text-dark" href="#">>></a> </span>
+              <span><a href="#">1</a></span>
+              <span><a href="#">2</a> </span>
+              <span><a href="#">3</a> </span>
+              <span><a href="#">4</a> </span>
+              <span><a href="#">5</a></span>
+              <span><a href="#">6</a> </span>
+              <span><a href="#">7</a> </span>
+              <span><a href="#">8</a> </span>
+              <span><a href="#">>></a> </span>
             </div>
           </div>
         </div>
