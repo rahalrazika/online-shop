@@ -72,7 +72,7 @@ button {
 }
 
 .user-nav {
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 
 .banner-container {
@@ -118,7 +118,7 @@ button {
 }
 
 .br-bottom {
-  margin-top: -1rem !important;
+  margin-top: -1rem;
 }
 
 .btn-price {
@@ -128,7 +128,7 @@ button {
 }
 
 .btn-plus {
-  height: fit-content !important;
+  height: fit-content;
 }
 
 .big-btn {
@@ -172,7 +172,7 @@ button {
 }
 
 .show-more {
-  margin-left: 7rem !important;
+  margin-left: 7rem;
 }
 
 .show-more span {
@@ -197,7 +197,7 @@ button {
 
 @media (min-width: 991px) and (max-width: 1200px) {
   .sub-btn {
-    margin-right: 8rem !important;
+    margin-right: 8rem;
   }
 
   .arrow-img {
@@ -215,7 +215,7 @@ button {
   }
 
   .detail-btn {
-    margin-left: 12rem !important;
+    margin-left: 12rem;
     margin-top: 6rem;
   }
 }
@@ -250,7 +250,7 @@ button {
   }
 
   .detail-btn {
-    margin-left: -2rem !important;
+    margin-left: -2rem;
     margin-top: 1rem;
   }
 }
