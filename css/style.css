@@ -66,10 +66,7 @@ button {
   margin-left: 10rem;
 }
 
-.navbar-container a {
-  font-size: 15px;
-}
-
+.navbar-container a,
 .fa {
   font-size: 15px;
 }
