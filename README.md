@@ -18,7 +18,7 @@ This project is based on an e-commerce site Designed by Mohammed Awad, and I mad
 
 ## Live Demo home page
 
-[Live Demo Link](https://rawcdn.githack.com/rahalrazika/online-shop/992908598dc98e485f2098f204a34c6179295081/index.html)
+[Live Demo Link](https://raw.githack.com/rahalrazika/online-shop/home-page/index.html)
 
 ## Getting Started
 
