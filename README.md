@@ -7,9 +7,6 @@ This project is based on an e-commerce site Designed by Mohammed Awad, and I mad
 - This project has two pages -- the first page is the home page and the second is the search results page
 
 ![screenshot](img/screenshot/screenshot.PNG)
-![screenshot](img/screenshot/h-mobile.PNG)
-![screenshot](img/screenshot/search.PNG)
-![screenshot](img/screenshot/smobile.PNG)
 
 ## Built With
 
