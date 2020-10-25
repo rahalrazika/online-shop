@@ -23,7 +23,7 @@ This project is based on an e-commerce site Designed by Mohammed Awad, and I mad
 
 ## Author
 
-¤ **Razika**
+ **Razika**
 
 - Github: [@rahalrazika](https://github.com/rahalrazika)
 - Linkedin : [Razika Rahal](https://www.linkedin.com/in/razika-rahal-85539bbb/)
